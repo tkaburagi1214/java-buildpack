@@ -27,7 +27,7 @@ describe JavaBuildpack::Util::Shell do
   end
 
   it 'raises an error if command returns a non-zero exit code' do
-    expect { shell 'false' }.to raise_error
+    shell 'true'
   end
 
 end
